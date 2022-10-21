@@ -70,13 +70,4 @@ public class LeapYearTest {
         assertTrue(LeapYear.isLeapYear(1704));
     }
 
-    @Test
-    public void leap_year_is_based_on_the_gregorian_calendar_and_input_before_1700_is_not_acceptedActionTest(){
-
-        assertFalse(LeapYear.isLeapYear(1688));
-        assertFalse(LeapYear.isLeapYear(1696));
-
-        assertTrue(LeapYear.isLeapYear(1704));
-    }
-
 }
