@@ -38,7 +38,6 @@ public class LeapYearTest {
         assertFalse(LeapYear.isLeapYear(2499));
         assertFalse(LeapYear.isLeapYear(5039));
     }
-
     @Test
     public void a_year_is_not_a_leap_year_when_divisible_by_100_and_not_400() {
 
@@ -51,7 +50,6 @@ public class LeapYearTest {
         assertFalse(LeapYear.isLeapYear(2500));
         assertFalse(LeapYear.isLeapYear(5100));
     }
-
     @Test
     public void input_in_isLeapYear_must_have_four_digits(){
 
@@ -60,7 +58,6 @@ public class LeapYearTest {
         assertFalse(LeapYear.isLeapYear(399));
         assertFalse(LeapYear.isLeapYear(167349));
     }
-
     @Test
     public void leap_year_is_based_on_the_gregorian_calendar_and_input_before_1700_is_not_accepted(){
 
