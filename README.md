@@ -2,8 +2,8 @@
 repository for oppgaver i Software Engineering og testing ved Hiof 2022
 
 Satt opp repository, klonet repo lokalt og pushet oblig 2.
-Testet både ferdig oppsett og lage selv på Github actions.
-Men endte opp med "Java with Gradle By GitHub Actions".
+Testet både ferdig oppsett på workflows og skrive et selv.
+Men endte opp med oppsettet "Java with Gradle By GitHub Actions".
 
 Fikk i begynnelsen ulike errors.
 Satte derfor inn et oppsett for Gradle i settings.gradle som jeg fant på "https://docs.gradle.org/current/userguide/github-actions.html".
